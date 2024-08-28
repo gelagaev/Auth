@@ -1,6 +1,6 @@
-using WebApplication1.Core.Models;
+using Api.Core.Models;
 
-namespace WebApplication1.Core.Services;
+namespace Api.Core.Services;
 
 public interface IUserService
 {

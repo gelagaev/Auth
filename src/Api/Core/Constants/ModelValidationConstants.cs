@@ -1,4 +1,4 @@
-namespace WebApplication1.Core.Constants;
+namespace Api.Core.Constants;
 
 public static class ModelValidationConstants
 {

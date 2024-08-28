@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Core.Services;
-using WebApplication1.Implementation.Services;
-using WebApplication1.Infrastructure;
+using Api.Core.Services;
+using Api.Implementation.Services;
+using Api.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

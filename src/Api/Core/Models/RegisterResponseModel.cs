@@ -1,3 +1,3 @@
-namespace WebApplication1.Core.Models;
+namespace Api.Core.Models;
 
 public record RegisterResponseModel(bool Success, string? ErrorMessage);

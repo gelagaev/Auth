@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using WebApplication1.Core.Constants;
+using Api.Core.Constants;
 
-namespace WebApplication1.Controllers.Dto;
+namespace Api.Controllers.Dto;
 
 public record RegisterRequestDto(
     [MaxLength(ModelValidationConstants.UserNameMaxLength, ErrorMessage = ModelValidationConstants.UserNameMaxLengthErrorMessage)]

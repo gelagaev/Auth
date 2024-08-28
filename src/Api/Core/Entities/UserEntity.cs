@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using WebApplication1.Core.Constants;
+using Api.Core.Constants;
 
-namespace WebApplication1.Core.Entities;
+namespace Api.Core.Entities;
 
 public sealed class UserEntity
 {

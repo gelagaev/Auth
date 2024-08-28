@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace WebApplication1.Controllers.Dto;
+namespace Api.Controllers.Dto;
 
 public record RegisterResponseDto(
     [property: JsonPropertyName("success")]

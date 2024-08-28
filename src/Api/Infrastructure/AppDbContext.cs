@@ -1,7 +1,7 @@
+using Api.Core.Entities;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Core.Entities;
 
-namespace WebApplication1.Infrastructure;
+namespace Api.Infrastructure;
 
 public sealed class AppDbContext : DbContext
 {

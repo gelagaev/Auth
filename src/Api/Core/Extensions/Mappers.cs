@@ -1,7 +1,7 @@
-using WebApplication1.Controllers.Dto;
-using WebApplication1.Core.Models;
+using Api.Controllers.Dto;
+using Api.Core.Models;
 
-namespace WebApplication1.Core.Extensions;
+namespace Api.Core.Extensions;
 
 public static class Mappers
 {

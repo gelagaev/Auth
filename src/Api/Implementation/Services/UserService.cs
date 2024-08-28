@@ -1,10 +1,10 @@
+using Api.Core.Entities;
+using Api.Core.Models;
+using Api.Core.Services;
+using Api.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Core.Entities;
-using WebApplication1.Core.Models;
-using WebApplication1.Core.Services;
-using WebApplication1.Infrastructure;
 
-namespace WebApplication1.Implementation.Services;
+namespace Api.Implementation.Services;
 
 public class UserService : IUserService
 {
