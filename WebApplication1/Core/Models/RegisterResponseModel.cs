@@ -1,3 +1,3 @@
-namespace WebApplication1.Controllers.Dto;
+namespace WebApplication1.Core.Models;
 
 public record RegisterResponseModel(bool Success, string? ErrorMessage);

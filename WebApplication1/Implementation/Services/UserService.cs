@@ -1,11 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Controllers.Dto;
 using WebApplication1.Core.Entities;
 using WebApplication1.Core.Models;
 using WebApplication1.Core.Services;
 using WebApplication1.Infrastructure;
 
-namespace WebApplication1.Implementation;
+namespace WebApplication1.Implementation.Services;
 
 public class UserService : IUserService
 {
@@ -43,6 +42,7 @@ public class UserService : IUserService
     
     private static string CreateMd5(string input)
     {
+        //TODO Implement
         return input;
     }
 }

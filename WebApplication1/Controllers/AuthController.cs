@@ -5,7 +5,7 @@ using WebApplication1.Core.Services;
 
 namespace WebApplication1.Controllers;
 
- [ApiController]
+[ApiController]
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
@@ -18,7 +18,7 @@ public class AuthController : ControllerBase
     
     [HttpPost("Register")]
     [ProducesResponseType(typeof(ActionResult<RegisterResponseDto>), StatusCodes.Status200OK)]
-    public async Task<ActionResult<RegisterResponseDto>> Register(
+    public async Task<ActionResult<RegisterResponseDto>> RegisterAsync(
         [FromBody] RegisterRequestDto registerRequestDto,
         CancellationToken ct
     )
